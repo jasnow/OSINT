@@ -1,0 +1,596 @@
+======================================================================
+OSINT/TRACE-LABS/MISSING-CTF - Feb.01,2020/SAT (5pm-10m EST) CTF
+
+ xx. 5pm-7pm: Missing Person CTF Pre-Mtg
+     -- AGENDA
+        -- Meet everyone interested in this CTF - Registered or 
+           just thinking about it.
+        -- Review CTF Pre-reqs.
+        -- Review Paid Training I took eariler in the day.
+        -- Plan additional actions - team(s), more gatherings, etc.
+
+ xx. Setup Missing Laptop.
+     -- WAS: Setup SSG laptop at house. (11/8/2019: started)
+     -- Set up Buscador in VM - https://null-byte.wonderhowto.com/how-to/
+            use-buscador-osint-vm-for-conducting-online-investigations-0186611
+     -- InstallEXIF Viewer plugins.
+     -- Use VPN/TOR to hide your trail.
+        -- Found 1/20/2020: https://www.suspekt.org/best-tor-vpn 
+           -- ExpressVPN.com/[floss, windows]
+
+ xx. Setup "sock puppet social media accounts (Facebook, TikTok,
+     LinkedIn, Instagram, Twitter, Google, Medium, Blogger) 
+     -- https://jakecreps.com/2018/11/02/sock-puppets
+
+ xx. Review: TOOL: https://saigar.io (only use if contestant)
+     -- saigar/resources tab (1/23/2020: Printed out/moved to separte item)
+     -- saigar/rules (1/23/2020: Reviewed)
+     -- saigar/categories - diff flag categories (1/23/2020: Printed out)
+
+......................................................................
+REMOTE
+
+ xx. Q: Special remote equipment
+
+ xx. Remote tool (discord, slack, etc)
+
+......................................................................
+NOT-REMOTE
+
+ xx. Decide/Plan War Room. Set up War Room.
+
+......................................................................
+TODOs/AFTER
+
+ xx. Watch OSINT INTRO VIDEO:
+     -- https://osintcurio.us/2020/01/16/introduction-to-osint-video
+
+ xx. Read: https://nerdyandthebrain.com/f/my-osint-ctf-journey---part-2
+
+ xx. Move OSINT Browser Tabs to SSG laptop.
+
+ xx. TRAINING TODOs (1/26/2020):
+Move screenshots into OSINT folder
+Check atp2-22-9.pdf - https://fas.org/irp/doddir/army/atp2-22-9.pdf
+Check https://twitter.com/quiztime ("start" in stuject to 
+Check signal (phone#)
+Check winder (phone#)
+Check finger
+Try https://imgur.com
+Try "What's My Name"
+Try Datasploit
+Check https://start.me/p/q6QJXo/azuleonyx-osint
+Try remove.bg (remove/blur person in image)
+Install/use exiftool
+Check sherlock tool
+Check/use WhatsMyName - web_accounts_list*.py
+  -- https://webbreacher.com/2016/12/11/whatsmyname-project
+Try recon-ng -w peopleosint_jan26
+  -- update: market install recon/contacts-credentials/hibp_breach
+  -- whois_miner
+Check OSINT Book VPNs
+Check gofindwho.com
+Check https://github.com/StreisandEffect/streisand
+coogle.it
+cherrytree
+tineye.com/search (image search)
+yandex.com (image search)
+familytreenow.com
+melissa.com
+Monitor Twitter: @C_3PJoe, @theOSINTion
+
+......................................................................
+OTHER
+
+ xx. Whois
+
+ xx. Review MALTEGO.
+ xx. Review RECON-NG.
+ xx. Review SpiderFoot.
+
+ xx. Review OSINT book TOC.
+
+ xx. Looking for DATA LEADS/MISTAKES.
+     -- TIME, MONEY, TRANSLATIONS(Credit Cards, License Plate Pictures),
+        OTHER-DATA
+
+ xx. Specialities
+     -- Generalogy (family history)
+     -- Social Media (snapchat, tinder, facebook, twitter, linkedin)
+     -- Dark Web
+     -- Putting data together
+
+ xx. OSINT/Types of Missing People
+     -- Lost
+        -- No Memory
+        -- Dementia
+     -- Leave
+        -- Broken Marriage/Relationship
+     -- Hidding
+        -- Crimmial
+
+ xx. Resources
+     -- Check out Slack/resources channel
+        -- LINK: https://app.slack.com/client/T84745LDB/C83H59V7T
+     -- Check out 10 Saigar/resources.
+     -- REF: OSINT Curious 10 minute OSINT tip videos (LOTS OF VIDEOS/ARTICLES)
+        -- https://osintcurio.us/10-minute-tips 
+     -- Found 1/23/2020:
+        -- Bellingcat's Online Investigration Toolkit
+           -- https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpv
+              WQjmGnyVkfE2HYoICKOGguA/preview#heading=h.po9n93ahppok
+        -- https://iaca-darkweb-tools.com/manual-darkweb
+        -- http://exif.regex.info/faq.html
+        -- Skiptracker (Python web scraping tool)
+           -- https://www.buzzsprout.com/209598/1370116
+        -- LinkedIn2Username (
+           -- https://www.buzzsprout.com/209598/1370170
+        -- Twint (
+           -- https://www.buzzsprout.com/209598/1373113
+        -- SearchBook (
+           -- https://www.buzzsprout.com/209598/1397575
+     -- Found 1/23/2020:
+        -- Spiderfoot (collected OSINT from LOTS of sources)
+           -- https://www.buzzsprout.com/209598/917096
+        -- https://osintcurio.us/osintvideosandpodcasts
+        -- https://blog.google/products/search/discovering-millions-datasets-web
+
+ xx. (MAYBE) 1/23/2020; MISC "osint" resources/etc
+     -- https://inteltechniques.com/JE/OSINT_Packet_2019.pdf
+     -- https://inteltechniques.com/blog/2018/03/06/updated-osint-flowcharts
+     -- https://www.turkhackteam.org/capture-flag/
+        1883541-inferno-ctf-osint-write-up-p4rs.html (Inferno/P4RS)
+     -- https://www.osintcombine.com/post/
+        corporate-profiling-advanced-linkedin-searching-more
+     -- Found 8/15/2019: https://github.com/tg12/rapid7_OSINT
+     -- Found 4/10/2019: https://delta.navisec.io
+        -- /osint-for-pentesters-part-1-passive-recon-and-asset-discovery
+        -- /osint-for-pentesters-part-2-linkedin-is-not-just-for-jobs
+        -- /osint-for-pentesters-part-3-password-spraying-methodology
+     -- Found 12/18/2019: https://github.com/sshell/reddit-analyzer
+
+......................................................................
+
+ xx. 10am-2pm/EST/Jan.26: OSINT course (done)
+     -- Attend: TheOSINTion's "Introduction to People OSINT/
+        Missing Persons OSINT" course running Jan 14/Jan25
+        -- https://www.theosintion.com/courses/
+           introduction-to-people-osint-missing-people-osint
+     -- BRB: 10:47am, 11:43am, BREAK(12:06)
+     -- 1/26/2020 NOTES/TRAINING
+        -a- https://attendee.gototraining.com/rt/6078180945365818113
+        -b- 9:50am: Log In (done)
+        -c- 10am-2pm/EST/Jan.26: OSINT course
+        -d- 23 people showed up - GoToTraining meeting: 981-604-092
+        -e- Joe Gray/Trainer  (QOMPLX, Inc; Writing book/No Starch
+            Press by Fall 2020)
+            -- Co-Founder of "Through the Hacking Glass"
+        -f- We will cover 2 tools needing API keys.
+        -g- GOAL: Be nosy.
+        -h- Covered OSINT (wikipedia) definition 
+            -- Passive relationship with targets/people
+        -i- https://bit.ly/1viZy0s (CIA def'n)
+            -- https://www.cia.gov/news-information/featured-story-archive
+            2010-featured-story-archive/open-source-intelligence.html
+        -j- Sources: Internet, mass media, speciality journals/conf's,
+            photos, geospatial info/maps  
+        -k- Missing Person Targets are called Subjects.
+        -l- Types:
+            -1- Hiding/Actionly Hiding
+            -2- Want to be Found/can be Found
+            -3- Want to be Found/can't be Found
+        -m- Photo Analysis - CHECK: what you see, what is missing, meta data
+        -n- Bing is better than Google for street view
+        -o- People OSINT: 
+            -- Positive Uses: 
+            -- Negative Uses: Stalking, Espionage, Doxing
+        -p- Avoid Facebook (to close)
+        -q- Avoid burner phones (used these and computer/china)
+        -r- Screenshots (Friends, Employment, Family, Subject/BasicInfo,
+            Subject/AdvancedInfo, Day Last Seen, Dark Web, Location)
+            -- Check Yelp, TripAdvisors
+            -- Check Mutual People/Friends, Gangs, Drifter?
+            -- Where they buy prescriptions?
+            -- BE VERY CAREFUL on the Dark Web.
+        -s- Use out-of-the-box thinking.
+        -t- SpiderFoot is very noisy.
+        -u- Buscador is basicly dead/not updated. Use Kali.
+            -- Joe Gray: Use cloud instance of ubuntu
+        -v- Use browser (not even VM)
+        -w- Clone VM - use it - destroy VM after
+        -x- BLUE BOOK: Bazzell book explains how to create own OSINT stuff.
+        -y- Do not log into any Subject's accounts
+        -z- Screenshot: People OSINT Tools (see below)
+        -aa- Do not use paid web sites during CTF.
+        -ab- Screenshot: People OSINT Sources
+        -ac- Screenshot: Methods
+             -- dossier, Hunch.ly(paid), spider out stuff
+             -- Monosnag on mac
+                -- Also Nimbus Capture
+        -ad- "OSINT Heartbeat" - investigation out then in then out
+        -ae- OSINT are cycles not a defined process (start, end).
+        -af- Screenshot: Social Media
+             -- wallpapper/wall art maybe helpful
+        -ag- Screen: TRACELABS MIssing Persons CTFs Rules
+        -ah- LINK: safeescape.org (help domestic abusers) 
+        -ai- Kali Demo
+             -1- Picture (trees, water) - exiftool <FILE> = meta data
+                 -- From IPhone - image - used "GPS Positin" into Google
+             -2- WhatsMyName - web_accounts_list_checker.py -u <name>
+                 -- https://webbreacher.com/2016/12/11/whatsmyname-project
+            -3- recon-ng -w peopleosint_jan26
+                -- >> market install recon/contacts-credentials/hibp_breach
+                -- >> market install whois_miner
+                -- >> modules load profile
+                -- >> show profiles
+                -- >> db delete profiles 20
+                -- >> modules load hibp_b ($3.50/month)
+                -- >> options set SOURCE jack@twitter.com
+                -- >> info
+                -- >> run
+            -4- datasploit
+                -- cd to dtasploit dir
+                   -- python2 emails0sint.py jack@twitter.com
+                      -- avatar
+                   -- python2 usernameOsint.py C_3Pjoe
+        -aj- VPN recommendations - inteltechniques.com/vpn.html
+        -ak- Streisand Effect - https://github.com/StreisandEffect/streisand
+        -al- Out of order: HW: ACER C740 FTW
+        -an- Digital Ocean: $5/month
+        -ao- MINI CTF - FYI: No saved notes. - At least 4+ persons.
+        -ap- Each person took a single subject.
+        -aq- Set a time limit to spent on a subject.
+        -ar- two docs: https://drive.google.com/
+             drive/u/0/folders/1WZ5kH52vhF1-kbf-uuHR8RnVV4f1hNWp
+
+......................................................................
+
+ xx. Posted to Slack/TraceLabs on 1/8/2020 by AK47Intel
+     -- [We have just published 8 new missing persons cases to our 
+        ongoing ops Trello board!
+     -- To provide full transparency to the community, we select our
+        cases from the public OP Request Submissions in priority order
+        that meet the criteria from our form instructions: 
+https://www.tracelabs.org/getinvolved/op-request-form
+     -- For those new to our ongoing ops, you can checkout #oprequests
+     -- Please Note: Only cases posted to our Trello board are sanctioned
+        Trace Labs Missing Persons Operations
+     -- Every two weeks, we will be publishing a new set of missing 
+        persons cases in Trello at which point we will package up all
+        the intel gathered into an intelligence report for the respective
+        law enforcement agencies. The purpose is to find as much OSINT 
+        on the missing person within a 2 week timeframe.
+     -- If there is any intel discovered that points to the current 
+        location of the missing person, please reach out to myself, 
+        @Creep or @BlackBeardimmediately to let us know.
+     -- New To Trace Labs MP Ops:
+        -1- You’ll need to join our team (
+https://trello.com/invite/trace_labs/0324fd10d726ed91f31544c2b9313cf3
+            ) and once logged in you will have access to all current MP Ops.
+        -2- In each missing persons case board, we will have instructions
+            and the details of the case under the first trello card 
+"Instructions/Case Info".
+        -3- We have Trello Cards for each category of OSINT we are 
+            looking for, such as "Friends" or "Day Last Seen" that you
+            can work to add to.
+        -4- Any questions please post in #oprequests or use @team to
+            notify the Trace Labs crew.
+     -- Existing To Trace Labs MP Ops:
+        -1- You’ll need to login to your existing Trello account (
+https://trello.com/login
+            ) then you will be able to view all MP Ops under the Trace
+           Labs team board.
+        -2- In each missing persons case board, we will have instructions
+            and the details of the case under the first trello card 
+"Instructions/Case Info".
+        -3- We have Trello Cards for each category of OSINT we are 
+            looking for, such as "Friends" or "Day Last Seen" that 
+            you can work to add to.
+        -4- Any questions please post in #oprequests or use @team to
+            notify the Trace Labs crew.
+     -- Side Notes and Rules:
+        -1- In Trello there are 2 labels; Confirmed (Green) and Not 
+            Confirmed (Red). Please label your OSINT accordingly.
+        -2- Details! Details! Details! Please don’t just submit links,
+            we need to know the who, what, where and why of the OSINT.
+        -3- Trello is a collaboration tool, you do have the ability 
+            to comment and interact on each others submissions.
+        -4- Please keep in mind the Trello board will be submitted as
+            is, to the local law authorities.
+        -5- This is not a CTF or a competition, we work and collaborate
+            as a team to locate missing persons.
+        -6- We don’t hack and we don’t speculate; submissions are
+            evidence based in the form of OSINT.
+        -7- We only gather intelligence from publicly available data,
+            this is also known as "passive recon"
+        -8- No active recon techniques are permitted in our Ongoing Ops.
+            This includes attempting to log into accounts of the missing
+            person or their loved ones, contacting the missing person
+            or their loved ones, and using any illegal hacking techniques
+            to gather intelligence.
+     -- Resources To Get You Started:
+        -1- In Depth Blog by DC27 Missing CTF Winners on OSINT Techniques
+            for Missing Persons:
+https://medium.com/@tracelabs/
+tales-from-defcon-27s-missing-persons-ctf-winners-team-w00kies-acea2f12d07d
+        -2- Hunchly Web Capture tool for organizing and tracking Intel: 
+https://www.hunch.ly
+        -3- Trace Labs OSINT Resources: 
+https://www.tracelabs.org/resources
+        -4- Trace Labs Endorsed OSINT Training:
+https://www.tracelabs.org/resources/training
+
+......................................................................
+OSINT/ARCHIVE
+
+ XX. CREATE OSINT/SE FLAG TYPE SHEET
+     -- WAS: PRACTICE BACKGROUND QS. (FLAGS TYPES)
+     -- PEOPLE
+        -- FAMILY (20 points)k?
+           -- CHILDREN?
+           -- PARENTS?
+           -- GRANDPARENTS?
+        -- FRIENDS (10 points)
+     -- EMPLOYMENT (15 points)/JOB-RELATED
+        -- WHERE THEY WORK? WORK TITLES?
+        -- JOB PEERS
+     -- HOME (25 points)
+        -- WHERE THEY LIVE/AREA OF TOWN? (ACROSS THEIR LIVE)
+           -- NOW
+           -- In the Past
+     -- BASIC SUBJECT INFO (50 points)/PERSONAL INFO
+        -- PHONE NUMBER (HOME, CELL)?
+        -- EMAILS, PASSWORDS
+        -- SSN NUMBER
+        -- CREDIT CARD BRANDS
+        -- CREDIT CARD NUMBERS
+        -- DRIVER'S LICENSE NUMBER
+        -- PETS?
+        -- PEN NAME/PSEUDONYM
+        -- CHILDHOOD - TOWN, MEMORIES?
+        -- COLLEGE DEGREE?
+        -- RELIGION?
+        -- GROUPS
+           -- MEETUP.COM
+           -- COLLEGE(S)?
+        -- FREE-TIME
+           -- CIVIC GROUPS?
+           -- HOBBIES?
+           -- SPORTS?
+           -- SCOUTS?
+     -- ADVANCED SUBJECT INFO (150 points)
+        -- habits (check facebook)
+        -- cell phones (?)
+        -- vehicles (?)
+     -- DAY LAST SEEN (500 points)
+     -- DARK WEB (1000 points)
+     -- LOCATION (1000 points)
+
+......................................................................
+OSINT/TODOs/DONE
+      -- Join Trace Labs Slack channel. (1/22/2020: done)
+      -- Join: https://www.linkedin.com/company/tracelabs (1/23/2020:done)
+      -- Review TWITTER: https://twitter.com/TraceLabs  (1/23/2020:Following) 
+      -- Read RULES: https://ctf.tracelabs.org/rules (1/23/2020: Printed out)
+     -- Questions:
+        -1- Q: Do I need a blank laptop or can I reuse my normal CTF laptop?
+            -- ANSWER: Use VM for CTF. Most people are fine running a separate 
+               virtual machine just to keep their sock puppet activity 
+               separate from their normal "daily driver"
+            -- Zoey Selman (aka V3rbaal) 11:49am: [I would recommend a
+               fresh VM and install the Brave browser. Another browser I
+               love is the Oryon OSINT browser. It essentially have many
+               many OSINT bookmarked pre-saved into it. I would advice
+               though if using Oryon, go through all the bookmarks first,
+               as it can be very overwhelming.]
+        -2- Q: Why limit teams to 4?
+            -- ANSWER: [My guess ... you don't want an overwhelming team
+               that makes it unfriendly to newcomers.  If you had a team
+               that exceeded 4, using a bunch of remote individuals (a
+               whole discord channel), it detracts from the spirit of
+               the challenge, and more importantly, diminishes the 
+               tradecraft of OSINT.At some point you have too many 
+               cooks in the kitchen.]
+            -- ANSWER: [We have chosen 4 person team limit for a few
+               reasons:
+               -1- More focused OSINT gathering in smaller groups of
+                   individuals to @belouve’s point.
+               -2- Encouraging more new comers to Trace Labs to team
+                   up with others and there is more of a team building
+                   experience with up to 4 people, than up to 8 for example.
+               -3- Limited prizes from sponsors available. We are very
+                   fortunate to have great sponsors like Offensive 
+                   Security, Hunchly, and SpiderFoot who provide us 
+                   virtual training and OSINT tool vouchers. 
+        -3- Q: Are there different types of missing people?
+            -- ANSWER: [We don't often get into the reasons why someone 
+               is missing or sought after.  I'd say yes, there are 
+               different types, but we try to keep them all the same
+               in approach.  You may have runaways, som deadbeat dads,
+               som trafficked females, some suicidal gamblers.... TraceLabs
+               doesn't judge.  TL has a defined scope that really helps 
+               evaluate all the cases as best we can and help Law 
+               enforcement gain the traction they seek.]
+        -4- Q: Do we get missing people from non-LE sources?
+               -- ANSWER: [Part of our scope is to only publish cases to
+                  our community where LE has asked for the public's 
+                  assistance. This means the case must come from a LE
+                  source such as namus.gov.
+                  -- This ensures we are only helping with the permission
+                     of LE and not interfering in any potential criminal
+                     investigation.]
+      -- Watch PREP VIDEOS:
+         -- https://www.youtube.com/watch?v=2DR7cOqy0c4 (1/23/2020: done)
+            -- Contestant Training; 9mins
+            -- Only OSINT (public info)
+            -- Teams (up to 4)
+            -- Saigar Tool - List of Missing Person
+            -- Remember to review:
+               -- saigar/rules
+               -- saigar/resources tab
+               -- saigar/categories - diff flag categories
+            -- Not from law enforcement, news media, or missing person site.
+         -- https://www.youtube.com/watch?v=x1YNxcICw7c
+            -- CTF Judge Training (9:58mins)
+            -- Check with event admin for Judge slot(s). 
+            -- Slack committee-ctf-judges channel
+            -- Main purpose to validate entries. Assign team(s).
+            -- STAR entries that are VERY IMPORTANT entries
+            -- You can always fix a mistake approve/reject entry in history.
+         -- Channel: youtube.com/channel/UCezKbcbnYtrwRXfGzgQMI3w
+            -- 5 vidoes - 2 are the above videos; watched 2 shorter videos
+         -- https://www.youtube.com/watch?v=KLXSjOvfMkY&feature=youtu.be
+            (2.08 mins)
+......................................................................
+     -- 1/22/2020 GREETBOT
+        -- TEXT: [Welcome to the Trace Labs community! Here’s a rundown 
+           of how things work and how you can get involved.
+           -- The Team: The Trace Labs team consists of (4 people) @Creep, 
+              @AK47Intel, @BlackBeard and @Zoey Selman (aka V3rbaal),
+              however to get in touch with us try using @team in a 
+              channel post or direct message, as this will notify all
+              of us for a more prompt response.
+           -- Missing CTFs: If you're looking to join one of our upcoming
+              CTFs, check out our Eventbrite page (tracelabs.eventbrite.com)
+              for our events schedule. Our upcoming CTFs are also posted
+              on Twitter (twitter.com/tracelabs) and in the #events channel.
+           -- CTF Contestants: For those participating in our Missing
+              CTFs as a contestant, we provide training for our CTF platform
+              via YouTube (youtube.com/channel/UCezKbcbnYtrwRXfGzgQMI3w).
+              Ensure to add yourself to the relevant channels (announcements,
+              events, general, jobs, oprequests, osint-news, questions,
+              resources, tl-press) in Slack, for the CTF you're participating
+              in, this will help you stay in the loop with specific information.
+           -- CTF Judges: We're always looking for volunteers to help
+              us remotely judge our CTFs. Please check out our YouTube 
+              training video (youtube.com/channel/UCezKbcbnYtrwRXfGzgQMI3w)
+              to see what a CTF judge entails. If you're interested 
+              please join #committee-ctf-judges channel.
+           -- OpRequests: Every week, up to 9 new missing persons cases
+              will be posted in the
+#oprequests channel. 
+              The cases will remain open for 7 days with the intention of
+              finding as much OSINT in the 7 day time frame before we 
+              submit it to the local authorities. These cases can be worked 
+              on by all members of the Trace Labs community. We use the 
+              Trello platform to collaborate the OSINT found.
+           -- Trello: Any member of the Trace Labs community can 
+              participate by joining the Trace Labs Trello team
+(trello.com/invite/trace_labs/0324fd10d726ed91f31544c2b9313cf3).
+              Once you have signed up and logged in with a Trello account,
+              you'll need to individually join the Trello boards for the
+              #oprequests you wish to participate in.
+           -- Channels: Everyone has been added to important channels by
+              default and every channel has it’s own purpose, however
+              there are a few extra channels which are voluntary. The
+              purpose of a channel can be found under the channel title 
+              and important messages which have been “pinned” can also be
+              found under the channel title too. Please search through the 
+              list for additional channels you can join.
+           -- Resources: Majority of us are here to help locate missing 
+              people, and to also improve our OSINT skills. We encourage
+              you to share resources and tools in the 
+#resources channel.
+           -- Questions: We really encourage you to all challenge 
+              yourselves and ask each other and us questions in the 
+#questions channel.
+           -- Sponsors/Donating: Unfortunately things cost money to run,
+              due to this we are looking for sponsors or even small 
+              donations which help us pay for infrastructure, platforms 
+              and our ability to have Trace Labs at infosec conferences,
+              like BSides and DEFCON. If you’re looking to sponsor us, 
+              please contact us via email
+(info@tracelabs.org).
+              If you’re looking to make a small donation we accept 
+              funds via our PayPal
+(paypal.me/tracelabs).
+           -- Events: If you would like a Trace Labs Missing CTF event
+              to be held at your local infosec conference or university,
+              please email us 
+(info@tracelabs.org).
+           -- Thank you so much for supporting the Trace Labs mission!]
+
+ xx. OSINT/ARCHIVE
+     -- https://www.eventbrite.ca/e/trace-labs-global-missing-ctf-iii-
+        an-osint-ctf-for-missing-persons-tickets-86554822805?aff=eand
+     -- Found 10/16/2019: https://nakedsecurity.sophos.com/2019/10/15/        
+        350-hackers-hunt-down-missing-people-in-first-such-hackathon
+     -- Found 11/7/2019: Trace Labs (Missing Persons)
+     -- Found 11/18/2019: Dec.13-14: "Missing People CTF" (12/11/19: dropped)
+        -- https://www.infosecurity-magazine.com/news/
+           competition-aims-to-trace-missing
+        -- https://www.helpnetsecurity.com/2019/11/18/find-missing-persons
+        -- 12/11/2019@11:28am: Posted to Discord then deleted it b/c:
+           [Attendance at this special experience is limited 
+           to students attending a course at the event.]
+     -- 1/22/2020 NOTES
+        -a- Regsitered for training and paid $63.75.
+        -b- Printed out [A receipt from PayPal confirming your purchase.]
+        -c- Then got: [An email from GoToTraining with information on
+           how to join the training.]
+        -d- Register for event ($10+2.24/fee).
+        -e- Signed up for Slack https://app.slack.com/client/T84745LDB/C83H59V7T
+        -f- Send email to DC404 email list and post on Discord (done)
+            -- dc404-chat@lists.kaos.to
+            -- TITLE: Preparing for "Trace Labs Global Missing CTF III:
+            -- An OSINT CTF for Missing People"
+            -- Saturday, Jan.26,2020 (5pm-7pm) at Panera Bread (shares building
+            -- with bank); 3280 Holcomb Bridge Rd, Norcross, GA; 30092
+            -- You are invited to join me as we talk about the up-coming
+            -- "Missing People CTF" on Feb.01, 2020 from 5pm-10pm/EST.
+            -- This is for people who have registered or just thinking about it.
+            -- Please bring your laptop along with paper/pens/etc.
+            -- I will be ready to share the CTF Pre-reqs and my notes
+               from the official training.
+            -- Also we will decide on additional actions, such as team(s)
+               and other gatherings.
+            -- Please reply using my personal email if you plan to attend 
+               by noon of Jan.25, 2020.
+     -- 1/23/2020 NOTES
+        -a- Fix announcement typo "Sunday" or "25". (done/picked
+           "Sunday" - resent email and fixed Discord)
+        -b- Asked 4 questions.
+        -c- Posted this introduction to Slack.
+            -- My background is non-traditional software developer/tester
+               with cybersecurity exposure for last 2.5 year including
+               local CTFs. Gave 12+ local CTF/NetKoTH 101 classes.
+            -- Regarding OSINT, I have:
+               * Played 2 OSINT CTFs as part of local DC### group.
+               * Did OSINT on several family/friends with permission. Found
+                 that sometimes you do not know the value of data you have.
+               * Created/ran OSINT CTF with RootTheBox using Benjamin
+                 Franklin as subject at another DC### group meeting.
+               * Have signed up for 1/26/2020 training and 2/2/2020 CTF.
+        -d- Add this to OldReader (done)
+            -- https://reddit.com/r/news+technology+osint+netsec+espionage.rss
+            -- https://feeds.buzzsprout.com/209598.rss
+        -e- RSS Feeds:
+            -- https://www.jltctech.com/resource-center/osint-threat-feeds
+            -- https://www.reddit.com/r/OSINT/comments/c56iy1/
+               using_rss_as_the_source_of_osint_information
+     -- 1/24/2020 NOTES
+       -a- Assemble Sunday Night Agenda. (done)
+       -b- Q: Any OSINT RSS feeds? (1/24/2020@10:13am: Asked/answered)
+           -- Allso added to OldReader: https://osintcurio.us/10-minute-tips
+       -c- Find my ecopy of OSINT book. (1/24/2020: Unclear if I have ebook)
+       -d- TV show highlighted on 2017 Dragancon panel: Only 1 season 
+           -- CBS/Hunted (Amazon Prime, Hulu, Cinemax, YouTube,
+              iTune, Google Play)
+     -- 1/26/2020 NOTES
+        -a- 10am-2pm/EST/Jan.26: OSINT course below ($75; CODE: TRACELABS15
+            for 15% off for $63.75; Also Jan.25 (conflict with CCI)
+            -- 1/22/2020: Registered and Paid.
+            -- NOTES:
+               -1- For questions about the training or your payment,
+                   please  contact the organizer at:
+                   jgray@advancedpersistentsecurity.net
+               -2- 100% refund if canceled within 3 days of the training.
+                   50% refund if canceled more than 24 hours in advance.
+                   25% evaluation if canceled less than 24 hours prior 
+                   to the training start time. Circumstances to waive
+                   the refund policy are on a case by case basis.
+        -b- Carry OSINT Book.(done)
+        -c- AL/TODO: JoeG: Can I get Missing_Persons.pdf and Google 
+            Drive document? (done - two docs: https://drive.google.com/
+            drive/u/0/folders/1WZ5kH52vhF1-kbf-uuHR8RnVV4f1hNWp)
+EOF
